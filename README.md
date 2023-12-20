@@ -1,32 +1,24 @@
-# React Boilerplate Generator
+# Shell React Boilerplate Generator
 Used to generate component boilerplate files for React components.
-See: https://medium.com/jspoint/creating-cli-executable-global-npm-module-5ef734febe32
 
-
-
-## Please run the command below in this root directory to install react-bp globally
-
-```
-npm install -g ./
+## Installation
+1. Before running this script make sure it has executable permission by running:
+``` shell
+chmod +x ./rbp.sh  
 
 ```
 
-
-## To uinstall react-bp run the following command:
-
-```
-npm uninstall -g react-bp
-````
-
-
-
-## To create a component boilerplate just run the command:
-```
-rbp MyComponentName
+2. Add an alias to yout .zshrc file. Open ~/.zshrc and add the code below:
+``` shell
+alias rbps="/The/path/to/your/rbps.sh"
 ```
 
-or 
-
+3. Refresh your terminal source by running:
+``` shell
+source ~/.zshrc
 ```
-react-bp MyComponentName
+
+4. Now just run ```rbps``` on any directory to create the component directory and files.
+``` shell
+rbps MyComponent
 ```
