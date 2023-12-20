@@ -4,7 +4,7 @@ Used to generate component boilerplate files for React components.
 ## Installation
 1. Before running this script make sure it has executable permission by running:
 ``` shell
-chmod +x ./rbp.sh  
+chmod +x ./rbps.sh  
 
 ```
 
